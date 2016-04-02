@@ -1,5 +1,11 @@
-$color: red;
-
-body {
-	color: $color;
-}
+@import "helpers/normalize.scss";
+@import "theme/colores.scss";
+@import "theme/body.scss";
+@import "theme/layout.scss";
+@import "typography/headings.scss";
+@import "typography/text-elements.scss";
+@import "components/btns.scss";
+@import "components/footer.scss";
+@import "components/formulario.scss";
+@import "components/menu-mobile.scss";
+@import "components/menu.scss";
