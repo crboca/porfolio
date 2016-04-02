@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
-<<<<<<< HEAD
 var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync').create();
 
@@ -86,23 +85,3 @@ gulp.task('default', ['css','html','js','imagemin'], function() {
 });
 
 // cortar proceso ctrl+C
-=======
-
-gulp.task('css',function(){
-	return gulp.src('src/scss/main.scss')
-	.pipe(sass())
-	.pipe(autoprefixer({
-		browsers: [
-		'last 2 versions',
-		'> 1%',
-		'ie 9'
-		]
-	}))
-	.pipe(gulp.dest('dist/css'));
-});
-
-gulp.task('default', ['css'], function(){
-	gulp.watch('src/scss/**/*.scss', ['css']);
-});
-
->>>>>>> bf2c80b07260ae584e5de507552109e9bddcf209

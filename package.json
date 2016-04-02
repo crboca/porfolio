@@ -2,18 +2,13 @@
   "name": "porfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^6.3.3",
-<<<<<<< HEAD
     "beepbeep": "^1.2.0",
     "browser-sync": "^2.11.2",
-    "colors": "^1.1.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-gh-pages": "^0.5.4",
@@ -21,10 +16,18 @@
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.2.0",
     "imagemin-pngquant": "^4.2.2"
-=======
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-sass": "^2.2.0"
->>>>>>> bf2c80b07260ae584e5de507552109e9bddcf209
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crboca/porfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crboca/porfolio/issues"
+  },
+  "homepage": "https://github.com/crboca/porfolio#readme"
 }
