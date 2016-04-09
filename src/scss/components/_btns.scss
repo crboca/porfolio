@@ -1,0 +1,20 @@
+.btn-dark{
+	background-color: $marron;
+	color: $blanco;
+	border: 1px solid $blanco;
+}
+
+.btn-light{
+	background-color: $blanco;
+	color: $marron;
+	border: 1px solid $marron;
+}
+
+
+.btn-dark, .btn-light {
+	height: 40px;
+	width: 137px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
