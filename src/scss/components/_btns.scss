@@ -1,13 +1,14 @@
 .btn-dark{
 	background-color: $marron;
 	color: $blanco;
-	border: 1px solid $blanco;
+	border: none;
+	margin: 1rem auto;
+	display: block;
 }
 
 .btn-light{
 	background-color: $blanco;
 	color: $marron;
-	border: 1px solid $marron;
 }
 
 
@@ -17,4 +18,20 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	padding: 2px;
+	border: none;
+	margin: 1rem auto;
+	display: block;
+}
+
+.btn-line-dark {
+	border: 1px solid $blanco;
+}
+
+.btn-line-light {
+	border: 1px solid $marron;
+}
+
+.btn-line-dark, .btn-line-light{
+	padding: 6px 4px;
 }

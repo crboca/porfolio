@@ -174,23 +174,51 @@ td,
 th {
   padding: 0; }
 
+body {
+  width: 100%;
+  margin: 0; }
+
+nav {
+  display: none; }
+
 .home {
-  color: #fff; }
+  background: url(../img/img-home.jpg);
+  height: 580px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #fff;
+  text-align: center; }
 
 .about {
   background-color: #575453;
-  color: #fff; }
+  color: #fff;
+  padding: 1rem 0; }
 
 .work {
   background-color: #dfdada;
-  color: #575453; }
+  color: #575453;
+  padding: 1rem 0; }
 
 .contact {
   background-color: #888281;
-  color: #fff; }
+  color: #fff;
+  padding: 1rem 0; }
 
 .footer {
-  background-color: #575453; }
+  background-color: #575453;
+  padding: 1rem 0; }
+
+.inner-line-light, .inner-line-dark {
+  width: 80%;
+  margin: auto;
+  padding: 0 1rem; }
+
+.inner-line-light {
+  border: 1px solid #fff; }
+
+.inner-line-dark {
+  border: 1px solid #575453; }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -234,16 +262,30 @@ p {
 .btn-dark {
   background-color: #575453;
   color: #fff;
-  border: 1px solid #fff; }
+  border: none;
+  margin: 1rem auto;
+  display: block; }
 
 .btn-light {
   background-color: #fff;
-  color: #575453;
-  border: 1px solid #575453; }
+  color: #575453; }
 
 .btn-dark, .btn-light {
   height: 40px;
   width: 137px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  font-weight: 400; }
+  font-weight: 400;
+  padding: 2px;
+  border: none;
+  margin: 1rem auto;
+  display: block; }
+
+.btn-line-dark {
+  border: 1px solid #fff; }
+
+.btn-line-light {
+  border: 1px solid #575453; }
+
+.btn-line-dark, .btn-line-light {
+  padding: 6px 4px; }
