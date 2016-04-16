@@ -1,24 +1,39 @@
 #menu-container {
 	background-color: rgba(57, 54, 53, 0.8);
-	width: 40%;
+	width: 60%;
 	height: 580px;
 	position: absolute;
 	top: 0;
 	right: 0;
+	display: none;
 }
 
 li{
 	list-style: none;
 }
 
-ul{
+.ul-menu{
 	padding: 0;
+	margin: 4rem auto;
+}
+
+#mobil-close, #mobile-button{
+	width: 31px;
+	height: auto;
+	position: absolute;
 }
 
 #mobile-close {
-  z-index: 3;
+  position: relative;
   cursor: pointer;
+  top: 1rem;
+  right: -3.7rem;
 }
+
 #mobile-button {
+  position: absolute;
   cursor: pointer;
+  top: 1.3rem;
+  right: 1.5rem;
 }
+

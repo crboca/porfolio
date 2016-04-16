@@ -8,7 +8,8 @@
 	<title>Cristina Boix Canut</title>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="dist/js/jquery.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.js"></script>
 </head>
 
 <body>
@@ -16,16 +17,16 @@
 	<section class="home">
 
 		<div id="mobile-button">
-			o
+			<img src="../img/btn-abrir.png" alt='Close Menu'>
 		</div>
 		
 		<div id='menu-container'>
 
 		<div id="mobile-close">
-			✕
+			<img src="../img/btn-cerrar.png" alt='Close Menu'>
 		</div>	
 
-			<ul>
+			<ul class="ul-menu">
 				<li><button class="btn-light btn-menu"><div class="btn-line-light">About me</div></button></li>
 				<li><button class="btn-light btn-menu"><div class="btn-line-light">Work</div></button></li>
 				<li><button class="btn-light btn-menu"><div class="btn-line-light">Contact</div></button></li>
@@ -42,13 +43,11 @@
 			<h5>ABOUT</h5>
 			<h6>Academic & Work Carrer</h6>
 			<p>Her name is Cristina and she is 24. She was born in Olot but she has been living in Barcelona for 6 years.</p>
-			<p>She is graduated in Engineering in Industrial Design at Elisava, and last year she did a Master in Graphic Design in Branding and Packaging at BAU. She did an internship in TRES Griferia and another in Series Nemo.</p>
-			<p>Currently she is still studying at BAU, a Master in Web Design, and meanwhile she is doing an internship as UX designer at e-la Caixa.</p>
-
-
+			<p>She is graduated in Engineering in Industrial Design at Elisava, and last year she did a Master's in Graphic Design in Branding and Packaging at BAU. She did an internship in TRES Griferia and another in Series Nemo.</p>
+			<p>Currently she is still studying at BAU, a Master's in Web Design, and meanwhile she is doing an internship as UX designer at e-la Caixa.</p>
 
 			<div class='cristina-photo-mbl'> 
-				<button class="btn-light"><div class="btn-line-light">Curriculum Vitae</div></button>
+				<button class="btn-light btn-cv"><div class="btn-line-light">Curriculum Vitae</div></button>
 			</div>
 
 		</section>
@@ -74,46 +73,118 @@
 					<h5 class='title-info'>SNOZ</h5>
 					<p>Snoezelen rooms are interactive spaces for people with autism and other developmental disabilities, dementia or brain injury. Snoz has been designed for childs with muscular distrophy. Static position helps them to relax, and dynamic position allows them to stimulate senses while their attention gets attracted by the games inside.</p>
 				</div>
-				<img src="snoz-images.jpg" alt="Images of Snoz project.">
+
+				<div class="slideshow">
+					<div class="prev">&lt;</div>
+					<div class="next">&gt;</div>
+			  
+			 		 <ul class="slides">
+			 			<li id="slide-1" data-n="1"></li>
+			    		<li id="slide-2" data-n="2"></li>
+			   			<li id="slide-3" data-n="3"></li>
+			   			<li id="slide-4" data-n="4"></li>
+			  		</ul>
+			  		<ul class="nav">
+			    		<li id="nav-1" data-cd="1"></li>
+			    		<li id="nav-2" data-cd="2"></li>
+			    		<li id="nav-3" data-cd="3"></li>
+			    		<li id="nav-4" data-cd="4"></li>
+			  			</ul>
+				</div>
+
 			</article>
 
 			<article>
 
 				<div class='div-thumbs thumb2'> 
-					<button class="btn-dark"><div class="btn-line-dark">Product</div></button>
+					<button class="btn-dark"><div class="btn-line-dark">Graphic</div></button>
 				</div>
 
 				<div class="project-info">
 					<h5 class='title-info'>ANTONYM</h5>
 					<p>Creation of a brand for a new hotel in Barcelona. It is focused on people with creative profile and interested in culture. The concept design is based on paradoxes, because the target, defined as 'social eremits', tend to be solitary in terms of its creativity and curiosity. But what they really need is to meet people and share all this.</p>
 				</div>
-				<img src="antonym-images.jpg" alt="Images of Antonym project.">
+
+				<div class="slideshow">
+					<div class="prev">&lt;</div>
+					<div class="next">&gt;</div>
+			  
+			 		 <ul class="slides">
+			 			<li id="slide-1" data-n="1"></li>
+			    		<li id="slide-2" data-n="2"></li>
+			   			<li id="slide-3" data-n="3"></li>
+			   			<li id="slide-4" data-n="4"></li>
+			  		</ul>
+			  		<ul class="nav">
+			    		<li id="nav-1" data-cd="1"></li>
+			    		<li id="nav-2" data-cd="2"></li>
+			    		<li id="nav-3" data-cd="3"></li>
+			    		<li id="nav-4" data-cd="4"></li>
+			  			</ul>
+				</div>
+			
 			</article>
 
 			<article>
 
 				<div class='div-thumbs thumb3'> 
-					<button class="btn-dark"><div class="btn-line-dark">Product</div></button>
+					<button class="btn-dark"><div class="btn-line-dark">Illustration</div></button>
 				</div>
 
 				<div class="project-info">
 					<h5 class='title-info'>LEOPARD</h5>
 					<p>She was curious to find out how would a leopard look if it was poligonized... And here you are!</p>
 				</div>
-				<img src="leopard-images.jpg" alt="Images of Leopard project.">
+				
+				<div class="slideshow">
+					<div class="prev">&lt;</div>
+					<div class="next">&gt;</div>
+			  
+			 		 <ul class="slides">
+			 			<li id="slide-1" data-n="1"></li>
+			    		<li id="slide-2" data-n="2"></li>
+			   			<li id="slide-3" data-n="3"></li>
+			   			<li id="slide-4" data-n="4"></li>
+			  		</ul>
+			  		<ul class="nav">
+			    		<li id="nav-1" data-cd="1"></li>
+			    		<li id="nav-2" data-cd="2"></li>
+			    		<li id="nav-3" data-cd="3"></li>
+			    		<li id="nav-4" data-cd="4"></li>
+			  			</ul>
+				</div>
+
 			</article>
 
 			<article>
 
 				<div class='div-thumbs thumb1'> 
-					<button class="btn-dark"><div class="btn-line-dark">Product</div></button>
+					<button class="btn-dark"><div class="btn-line-dark">Photography</div></button>
 				</div>
 
 				<div class="project-info">
 					<h5 class='title-info'>FADED</h5>
 					<p>Don’t know why, but she is in love with the immense sky and faded colors.</p>
 				</div>
-				<img src="faded-images.jpg" alt="Images of Faded project.">
+				
+				<div class="slideshow">
+					<div class="prev">&lt;</div>
+					<div class="next">&gt;</div>
+			  
+			 		 <ul class="slides">
+			 			<li id="slide-1" data-n="1"></li>
+			    		<li id="slide-2" data-n="2"></li>
+			   			<li id="slide-3" data-n="3"></li>
+			   			<li id="slide-4" data-n="4"></li>
+			  		</ul>
+			  		<ul class="nav">
+			    		<li id="nav-1" data-cd="1"></li>
+			    		<li id="nav-2" data-cd="2"></li>
+			    		<li id="nav-3" data-cd="3"></li>
+			    		<li id="nav-4" data-cd="4"></li>
+			  			</ul>
+				</div>
+
 			</article>
 		</div>
 	</section>
@@ -136,7 +207,10 @@
 	<section class="footer">
 		<img class='mini-logo' src="img/mini-logo.png" alt="Cristina's Logo">
 	</section>
-<script src="dist/js/menu.js"></script>
+
+<script src="js/menu.js"></script>
+<script src="js/slider.js"></script>
+
 </body>
 
 </html>
