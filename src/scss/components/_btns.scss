@@ -1,16 +1,12 @@
 .btn-dark{
 	background-color: $marron;
 	color: $blanco;
-	border: none;
-	margin: 1rem auto;
-	display: block;
 }
 
 .btn-light{
 	background-color: $blanco;
 	color: $marron;
 }
-
 
 .btn-dark, .btn-light {
 	height: 40px;
@@ -20,8 +16,8 @@
 	font-weight: 400;
 	padding: 2px;
 	border: none;
-	margin: 2rem auto;
 	display: block;
+	margin: 2rem auto;
 }
 
 .btn-line-dark {
@@ -34,4 +30,9 @@
 
 .btn-line-dark, .btn-line-light{
 	padding: 7px 4px;
+}
+
+.btn-menu{
+	display: block;
+	margin: 2rem auto;
 }

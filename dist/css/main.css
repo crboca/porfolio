@@ -178,9 +178,6 @@ body {
   width: 100%;
   margin: 0; }
 
-nav {
-  display: none; }
-
 .home {
   background: url(../img/img-home.jpg);
   height: 580px;
@@ -205,10 +202,6 @@ nav {
   color: #fff;
   padding: 1rem 0; }
 
-.footer {
-  background-color: #575453;
-  padding: 1rem 0; }
-
 .inner-line-light, .inner-line-dark {
   width: 80%;
   margin: auto;
@@ -220,23 +213,10 @@ nav {
 .inner-line-dark {
   border: 1px solid #575453; }
 
-.logo-mbl {
-  width: 172px;
-  height: 120px;
-  margin-top: 80px;
-  margin-bottom: 100px; }
-
-.cristina-photo-mbl {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-  padding: 0; }
-
-.img-thumb {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-  padding: 0; }
+.project-info {
+  background-color: #f8f4f4;
+  margin-top: -1rem;
+  padding: 1rem; }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -272,6 +252,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding-top: 1rem; }
 
+.title-info {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  padding-top: 0;
+  margin: 0; }
+
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
@@ -299,10 +286,7 @@ textarea {
 
 .btn-dark {
   background-color: #575453;
-  color: #fff;
-  border: none;
-  margin: 1rem auto;
-  display: block; }
+  color: #fff; }
 
 .btn-light {
   background-color: #fff;
@@ -316,8 +300,8 @@ textarea {
   font-weight: 400;
   padding: 2px;
   border: none;
-  margin: 2rem auto;
-  display: block; }
+  display: block;
+  margin: 2rem auto; }
 
 .btn-line-dark {
   border: 1px solid #fff; }
@@ -327,3 +311,75 @@ textarea {
 
 .btn-line-dark, .btn-line-light {
   padding: 7px 4px; }
+
+.btn-menu {
+  display: block;
+  margin: 2rem auto; }
+
+.footer {
+  background-color: #575453;
+  padding: 1rem 0; }
+
+.mini-logo {
+  height: 50px;
+  width: auto;
+  margin: 0.5rem auto;
+  display: block; }
+
+#menu-container {
+  background-color: rgba(57, 54, 53, 0.8);
+  width: 40%;
+  height: 580px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+li {
+  list-style: none; }
+
+ul {
+  padding: 0; }
+
+#mobile-close {
+  z-index: 3;
+  cursor: pointer; }
+
+#mobile-button {
+  cursor: pointer; }
+
+.logo-mbl {
+  width: 172px;
+  height: 120px;
+  margin-top: 80px;
+  margin-bottom: 100px; }
+
+.cristina-photo-mbl {
+  background-image: url(../img/cristina.jpg);
+  width: 100%;
+  height: 400px;
+  margin-bottom: 1rem;
+  padding: 0;
+  position: relative; }
+
+.div-thumbs {
+  width: 100%;
+  height: 170px;
+  margin-bottom: 1rem;
+  padding: 0;
+  position: relative; }
+
+.thumb1, .thumb2, .thumb3, .thumb4 {
+  background-size: cover;
+  background-position: center; }
+
+.thumb1 {
+  background-image: url(../img/thumb-snoz.png); }
+
+.thumb2 {
+  background-image: url(../img/thumb-antonym.png); }
+
+.thumb3 {
+  background-image: url(../img/thumb-leopard.png); }
+
+.thumb4 {
+  background-image: url(../img/thumb-faded.png); }
