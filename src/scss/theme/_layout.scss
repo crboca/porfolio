@@ -6,24 +6,28 @@
 	background-position: right;
 	color: $blanco;
 	text-align: center;
+
+@media (min-width: 768px) {
+	height: 1040px;
+	}
 }
 
 .about{
 	background-color: $marron;
 	color: $blanco;
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 .work{
 	background-color: $rosa-palo;
 	color: $marron;	
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 .contact{
 	background-color: $beige;
 	color: $blanco;	
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 .inner-line-light, .inner-line-dark{

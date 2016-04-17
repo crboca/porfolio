@@ -186,21 +186,24 @@ body {
   background-position: right;
   color: #fff;
   text-align: center; }
+  @media (min-width: 768px) {
+    .home {
+      height: 1040px; } }
 
 .about {
   background-color: #575453;
   color: #fff;
-  padding: 1rem 0; }
+  padding: 2rem 0; }
 
 .work {
   background-color: #dfdada;
   color: #575453;
-  padding: 1rem 0; }
+  padding: 2rem 0; }
 
 .contact {
   background-color: #888281;
   color: #fff;
-  padding: 1rem 0; }
+  padding: 2rem 0; }
 
 .inner-line-light, .inner-line-dark {
   width: 80%;
@@ -353,13 +356,17 @@ textarea {
   top: 0;
   right: 0;
   display: none; }
+  @media (min-width: 768px) {
+    #menu-container {
+      height: 1040px;
+      width: 30%; } }
 
 li {
   list-style: none; }
 
 .ul-menu {
   padding: 0;
-  margin: 4rem auto; }
+  margin: 5rem auto; }
 
 #mobil-close, #mobile-button {
   width: 31px;
@@ -377,12 +384,28 @@ li {
   cursor: pointer;
   top: 1.3rem;
   right: 1.5rem; }
+  @media (min-width: 768px) {
+    #mobile-button {
+      right: 3rem; } }
 
-.logo-mbl {
-  width: 172px;
-  height: 120px;
+.rrss-icons {
+  width: 35px;
+  height: auto;
+  display: block;
+  margin: 2rem auto; }
+  @media (min-width: 768px) {
+    .rrss-icons {
+      margin: 3rem auto; } }
+
+.logo {
+  width: 171px;
+  height: auto;
   margin-top: 80px;
   margin-bottom: 100px; }
+  @media (min-width: 768px) {
+    .logo {
+      width: 257px;
+      margin-top: 161px; } }
 
 .cristina-photo-mbl {
   background-image: url(../img/crboca.jpg);
@@ -398,7 +421,7 @@ li {
 .div-thumbs {
   width: 100%;
   height: 9.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
   padding: 0;
   position: relative; }
 
@@ -418,15 +441,12 @@ li {
 .thumb4 {
   background-image: url(../img/thumb-faded.png); }
 
-body {
-  background-color: #222729; }
-
 .slideshow {
   width: 100%;
   height: 180px;
   position: relative;
-  background: black;
-  margin: -1rem auto 1rem auto;
+  background: #2d2d2d;
+  margin: -1rem auto 3.5rem auto;
   max-width: 800px; }
 
 .slideshow .slides {
@@ -443,19 +463,31 @@ body {
   display: none; }
 
 .slides li:nth-child(1) {
-  background: url(https://unsplash.it/1000/500?random&cache=1) no-repeat center center;
+  background: url(../img/snoz-1.png) no-repeat center center;
   background-size: cover; }
 
 .slides li:nth-child(2) {
-  background: url(https://unsplash.it/1000/500?random&cache=2) no-repeat center center;
+  background: url(../img/snoz-2.png) no-repeat center center;
   background-size: cover; }
 
 .slides li:nth-child(3) {
-  background: url(https://unsplash.it/1000/500?random&cache=3) no-repeat center center;
+  background: url(../img/snoz-3.png) no-repeat center center;
   background-size: cover; }
 
 .slides li:nth-child(4) {
-  background: url(https://unsplash.it/1000/500?random&cache=4) no-repeat center center;
+  background: url(../img/snoz-4.png) no-repeat center center;
+  background-size: cover; }
+
+.slides li:nth-child(5) {
+  background: url(../img/snoz-5.png) no-repeat center center;
+  background-size: cover; }
+
+.slides li:nth-child(6) {
+  background: url(../img/snoz-6.png) no-repeat center center;
+  background-size: cover; }
+
+.slides li:nth-child(7) {
+  background: url(../img/snoz-7.png) no-repeat center center;
   background-size: cover; }
 
 .prev,
@@ -485,18 +517,23 @@ body {
   right: 0; }
 
 .nav {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  margin: 0 auto;
-  z-index: 1; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: -0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .nav li {
   float: left;
-  margin-right: 15px;
   width: 10px;
   height: 10px;
-  border: 2px solid #fff;
+  margin: 0 2px;
+  border: 2px solid #575453;
   border-radius: 10px;
   transition: background 0.5s;
   -o-transition: background 0.5s;
@@ -504,11 +541,11 @@ body {
   -webkit-transition: background 0.5s; }
 
 .nav li:hover {
-  background-color: #fff;
+  background-color: #575453;
   cursor: pointer; }
 
 .active-cd {
-  background-color: #fff; }
+  background-color: #575453; }
 
 .info {
   text-align: center;

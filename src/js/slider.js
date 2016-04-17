@@ -30,11 +30,11 @@ $(document).ready(function() {
 		var anteriorCirculo = circuloActual.prev();
 
 		if (anterior.length == 0) {
-			anterior = $('#slide-4');
+			anterior = $('#slide-7');
 		}
 
 		if (anteriorCirculo.length == 0) {
-			anteriorCirculo = $('#nav-4');
+			anteriorCirculo = $('#nav-7');
 		}
 
 		actual.hide();
@@ -62,11 +62,3 @@ $(document).ready(function() {
   	});
 
 });
-
-
-
-
-
-
-
-

@@ -6,6 +6,12 @@
 	top: 0;
 	right: 0;
 	display: none;
+
+@media (min-width: 768px) {
+	height: 1040px;
+	width: 30%;
+	}
+
 }
 
 li{
@@ -14,7 +20,7 @@ li{
 
 .ul-menu{
 	padding: 0;
-	margin: 4rem auto;
+	margin: 5rem auto;
 }
 
 #mobil-close, #mobile-button{
@@ -35,5 +41,21 @@ li{
   cursor: pointer;
   top: 1.3rem;
   right: 1.5rem;
+
+@media (min-width: 768px) {
+	right: 3rem;
+	}
+
 }
 
+.rrss-icons {
+	width: 35px;
+	height: auto;
+	display: block;
+	margin: 2rem auto;
+
+@media (min-width: 768px) {
+	margin: 3rem auto;
+	}
+
+}
