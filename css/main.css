@@ -292,15 +292,16 @@ textarea {
   background-color: #575453;
   color: #fff;
   position: relative;
-  top: 6rem; }
+  top: 6rem;
+  height: 40px;
+  width: 137px; }
 
 .btn-light {
   background-color: #fff;
-  color: #575453; }
+  color: #575453;
+  width: 134px; }
 
 .btn-dark, .btn-light {
-  height: 40px;
-  width: 137px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -321,10 +322,6 @@ textarea {
 .btn-menu {
   display: block;
   margin: 2rem auto; }
-
-.btn-cv {
-  position: relative;
-  top: 13.5rem; }
 
 .btn-dark:hover {
   background-color: #888281; }
@@ -348,6 +345,9 @@ textarea {
   margin: 0.5rem auto;
   display: block; }
 
+a {
+  text-decoration: none; }
+
 #menu-container {
   background-color: rgba(57, 54, 53, 0.8);
   width: 60%;
@@ -366,7 +366,7 @@ li {
 
 .ul-menu {
   padding: 0;
-  margin: 5rem auto; }
+  margin: 5rem auto 3.5rem; }
 
 #mobil-close, #mobile-button {
   width: 31px;
@@ -392,7 +392,7 @@ li {
   width: 35px;
   height: auto;
   display: block;
-  margin: 2rem auto; }
+  margin: 0 auto 2rem auto; }
   @media (min-width: 768px) {
     .rrss-icons {
       margin: 3rem auto; } }
