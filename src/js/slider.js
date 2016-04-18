@@ -21,6 +21,7 @@ $(document).ready(function() {
 		siguiente.fadeIn(1000);
 		siguienteCirculo.addClass('active-cd');
 	};
+	
 	$('.next').click(siguienteSlide);
 
 	$('.prev').click(function() {

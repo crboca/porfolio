@@ -3,16 +3,17 @@
 	color: $blanco;
 	position: relative;
 	top: 6rem;
+	height: 40px;
+	width: 137px;
 }
 
 .btn-light{
 	background-color: $blanco;
 	color: $marron;
+	width: 134px;
 }
 
 .btn-dark, .btn-light {
-	height: 40px;
-	width: 137px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -37,11 +38,6 @@
 .btn-menu{
 	display: block;
 	margin: 2rem auto;
-}
-
-.btn-cv {
-	position: relative;
-	top: 13.5rem;
 }
 
 .btn-dark:hover{

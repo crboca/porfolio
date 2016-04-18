@@ -17,11 +17,3 @@ $('#mobile-close').click(function() {
 
 });
 
-$(window).resize(function() {
-	if ($(window).width()>991) {
-		$('#mobile-button').hide();
-		$('#mobile-close').hide();
-	} else {
-		$('#mobile-button').show();
-	}
-});
