@@ -5,12 +5,14 @@
 	top: 6rem;
 	height: 40px;
 	width: 137px;
+	margin: 2rem auto;
 }
 
 .btn-light{
 	background-color: $blanco;
 	color: $marron;
 	width: 134px;
+	margin: 2rem 0;
 }
 
 .btn-dark, .btn-light {
@@ -20,7 +22,6 @@
 	padding: 2px;
 	border: none;
 	display: block;
-	margin: 2rem auto;
 }
 
 .btn-line-dark {
@@ -33,11 +34,6 @@
 
 .btn-line-dark, .btn-line-light{
 	padding: 7px 4px;
-}
-
-.btn-menu{
-	display: block;
-	margin: 2rem auto;
 }
 
 .btn-dark:hover{

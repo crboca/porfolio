@@ -1,0 +1,33 @@
+label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	margin-bottom: 0.25rem;
+	margin-top: 1rem;
+}
+
+label, input:not(.btn), textarea {
+	width: 100%;
+	display: block;
+}
+
+input, textarea {
+	border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	color: $negro;
+	height: 4rem;
+	max-width: 400px;
+}
+
+input {
+	line-height: 1.75rem;
+
+	&:not(.btn) {
+		height: 2rem;
+		}
+}
+
+
+
+
+
