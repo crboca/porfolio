@@ -26,6 +26,11 @@ h5{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 21px;
 	font-weight: 300;	
+
+@media (min-width: $tablet-width) {
+	font-size: 33px;
+	}
+
 }
 
 h6{

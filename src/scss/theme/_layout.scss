@@ -7,7 +7,7 @@
 	color: $blanco;
 	text-align: center;
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
 	height: 1040px;
 	}
 }

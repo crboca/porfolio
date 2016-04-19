@@ -5,16 +5,16 @@ a{
 
 #menu-container {
 	background-color: rgba(57, 54, 53, 0.8);
-	width: 60%;
+	width: 190px;;
 	height: 580px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	display: none;
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
 	height: 1040px;
-	width: 30%;
+	width: 235px;
 	}
 
 }
@@ -52,19 +52,20 @@ li{
   top: 1.3rem;
   right: 1.5rem;
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
 	right: 3rem;
 	}
 
 }
 
 .rrss-icons {
-	width: 35px;
-	height: auto;
+	height: 30px;
 	display: block;
 	margin: 0 auto 2rem auto;
 
-@media (min-width: 768px) {
+
+
+@media (min-width: $tablet-width) {
 	margin: 3rem auto;
 	}
 
