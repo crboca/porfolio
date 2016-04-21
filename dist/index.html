@@ -9,7 +9,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="js/jquery.js"></script>
-	<script src="js/jquery.js"></script>
+	<script src="js/scrollto.js"></script>
 </head>
 
 <body>
@@ -27,9 +27,9 @@
 		</div>	
 
 			<ul class="ul-menu">
-				<li><a href="#about" class="btn-light btn-menu"><div class="btn-line-light">About me</div></a></li>
-				<li><a href="#work" class="btn-light btn-menu"><div class="btn-line-light">Work</div></a></li>
-				<li><a href="#contact" class="btn-light btn-menu"><div class="btn-line-light">Contact</div></a></li>
+				<li><a class="btn-light btn-menu" href="#about"><div class="btn-line-light">About me</div></a></li>
+				<li><a class="btn-light btn-menu"  href="#work"><div class="btn-line-light">Work</div></a></li>
+				<li><a class="btn-light btn-menu" href="#contact" ><div class="btn-line-light">Contact</div></a></li>
 			</ul>
 			
 			<a href="https://twitter.com/cristinaboixc" target='_blank'>
@@ -59,8 +59,8 @@
 			<h6>Academic & Work Carrer</h6>
 			<div>
 			<p class="p-about">Her name is Cristina and she is 24. She was born in Olot but she has been living in Barcelona for 6 years.</p>
-			<p class="p-about">She is graduated in Engineering in Industrial Design at Elisava, and last year she did a Master's in Graphic Design in Branding and Packaging at BAU. She did an internship in TRES Griferia and another in Series Nemo.</p>
-			<p class="p-about">Currently she is still studying at BAU, a Master's in Web Design, and meanwhile she is doing an internship as UX designer at e-la Caixa.</p>
+			<p class="p-about">She is graduated in Engineering in Industrial Design at Elisava, and last year she did a Master's in Graphic Design in Branding and Packaging at BAU. She did an internship in TRES Griferia and another in Series Nemo. Furthermore she collaborated in UX Design projects at e-laCaixa.</p>
+			<p class="p-about">Currently she is still studying at BAU, a Master's in Web Design, and meanwhile she is doing an internship as UI/UX Designer at Runroom.</p>
 			</div>
 
 			<div class='cristina'> 
@@ -81,10 +81,13 @@
 
 			<article>
 
-				<div class='div-thumbs thumb1'> 
-					<button class="btn-dark"><div class="btn-line-dark">Product</div></button>
-				</div>
+			
+				<ul class='div-thumbs thumb1'> 
+					<button class="btn-dark toggle"><div class="btn-line-dark">Product</div></button>
+				
 
+			
+				<li class='inner'>
 				<div class="project-info">
 					<h5 class='title-info'>SNOZ</h5>
 					<p>Snoezelen rooms are interactive spaces for people with autism and other developmental disabilities, dementia or brain injury. Snoz has been designed for childs with muscular distrophy. Static position helps them to relax, and dynamic position allows them to stimulate senses while their attention gets attracted by the games inside.</p>
@@ -112,16 +115,21 @@
 			    		<li id="nav-6" data-cd="6"></li>
 			    		<li id="nav-7" data-cd="7"></li>
 			  			</ul>
+
+
 				</div>
+				</li>
+				</ul>
 
 			</article>
 
 			<article>
 
-				<div class='div-thumbs thumb2'> 
-					<button class="btn-dark"><div class="btn-line-dark">Graphic</div></button>
-				</div>
+			<ul class='div-thumbs thumb2'> 
+					<button class="btn-dark toggle"><div class="btn-line-dark">Graphic</div></button>
+				
 
+				<li class='inner'>
 				<div class="project-info">
 					<h5 class='title-info'>ANTONYM</h5>
 					<p>Creation of a brand for a new hotel in Barcelona. It is focused on people with creative profile and interested in culture. The concept design is based on paradoxes, because the target, defined as 'social eremits', tend to be solitary in terms of its creativity and curiosity. But what they really need is to meet people and share all this.</p>
@@ -150,15 +158,18 @@
 			    		<li id="nav-7" data-cd="7"></li>
 			  			</ul>
 				</div>
+				</li>
+				</ul>
 			
 			</article>
 
 			<article>
 
-				<div class='div-thumbs thumb3'> 
-					<button class="btn-dark"><div class="btn-line-dark">Illustration</div></button>
-				</div>
+				<ul class='div-thumbs thumb3'> 
+					<button class="btn-dark toggle"><div class="btn-line-dark">Illustration</div></button>
+				
 
+				<li class='inner'>
 				<div class="project-info">
 					<h5 class='title-info'>LEOPARD</h5>
 					<p>She was curious to find out how would a leopard look if it was poligonized... And here you are!</p>
@@ -181,15 +192,18 @@
 			    		<li id="nav-4" data-cd="4"></li>
 			  			</ul>
 				</div>
+				</li>
+				</ul>
 
 			</article>
 
 			<article>
 
-				<div class='div-thumbs thumb1'> 
-					<button class="btn-dark"><div class="btn-line-dark">Photography</div></button>
-				</div>
+				<ul class='div-thumbs thumb1'> 
+					<button class="btn-dark toggle"><div class="btn-line-dark">Photography</div></button>
+				
 
+				<li class='inner'>
 				<div class="project-info">
 					<h5 class='title-info'>FADED</h5>
 					<p>Don’t know why, but she is in love with the immense sky and faded colors.</p>
@@ -212,6 +226,8 @@
 			    		<li id="nav-4" data-cd="4"></li>
 			  			</ul>
 				</div>
+				</li>
+				</ul>
 
 			</article>
 		</div>
@@ -240,6 +256,8 @@
 
 <script src="js/menu.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/scrollto.js"></script>
+<script src="js/accordion.js"></script>
 
 </body>
 

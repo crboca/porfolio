@@ -8,7 +8,7 @@
 	text-align: center;
 
 @media (min-width: $tablet-width) {
-	height: 1040px;
+	height: 1100px;
 	}
 }
 
@@ -49,4 +49,11 @@
 	background-color: $rosa-palido;
 	margin-top: -1rem;
 	padding: 1rem;
+}
+
+.script {
+	display:none;
+	font-family: sans-serif;
+	height: auto;
+	width: auto;
 }
