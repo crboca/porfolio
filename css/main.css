@@ -188,7 +188,7 @@ body {
   text-align: center; }
   @media (min-width: 768px) {
     .home {
-      height: 1040px; } }
+      height: 1100px; } }
 
 .about {
   background-color: #575453;
@@ -221,6 +221,12 @@ body {
   background-color: #f8f4f4;
   margin-top: -1rem;
   padding: 1rem; }
+
+.script {
+  display: none;
+  font-family: sans-serif;
+  height: auto;
+  width: auto; }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -257,7 +263,7 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding-top: 1rem; }
+  padding-top: 1.5rem; }
 
 .title-info {
   font-family: 'Source Sans Pro', sans-serif;
@@ -460,6 +466,11 @@ li {
 
 .thumb4 {
   background-image: url(../img/thumb-faded.png); }
+
+.inner {
+  overflow: hidden;
+  display: none;
+  margin-top: 7rem; }
 
 .slideshow {
   width: 100%;
