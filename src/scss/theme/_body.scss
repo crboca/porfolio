@@ -3,6 +3,10 @@ body{
 	margin: 0;
 }
 
+.clearfix {
+	clear: both;
+}
+
 $mobile-width: 320px;
 
 $mobile-height: 568px;

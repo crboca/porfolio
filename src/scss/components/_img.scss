@@ -6,7 +6,7 @@
 
 @media (min-width: $tablet-width) {
 	width: 257px;
-	margin-top: 161px;
+	margin-top: 200px;
 	}
 
 }
@@ -15,26 +15,33 @@
 	background-image: url(../img/crboca.jpg);
 	width: 100%;
 	height: 17rem;
-	margin-bottom: 1rem;
 	padding: 0;
-	position: relative;
+	margin: 2rem auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	max-width: 260px;
+	background-position: top;
+	max-width: 256px; 
+	
+	@media (min-width: $tablet-width) {
+	max-width: 45%;
+	margin: 8rem auto 2rem 1rem;
+	float: left;
+	height: 22rem;
+	}
+
 }
 
 .div-thumbs {
 	width: 100%;
-	height: 9.5rem;
+	min-height: 9.5rem;
 	margin: 1rem auto;
 	padding: 0;
-	position: relative;
 }
 
 .thumb1, .thumb2, .thumb3, .thumb4 {
-	background-size: cover;
-	background-position: center;
+	background-size: 110%;
+	background-position: top;
+	background-repeat: no-repeat;
 }
 
 .thumb1 {

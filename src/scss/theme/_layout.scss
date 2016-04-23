@@ -8,7 +8,7 @@
 	text-align: center;
 
 @media (min-width: $tablet-width) {
-	height: 1100px;
+	height: 65rem;
 	}
 }
 
@@ -16,6 +16,15 @@
 	background-color: $marron;
 	color: $blanco;
 	padding: 2rem 0;
+}
+
+.content-about {
+@media (min-width: $tablet-width) {
+	float: left;
+	width: 45%;
+	margin: 0 2rem 0 0;
+	}
+
 }
 
 .work{
@@ -35,6 +44,11 @@
 	margin: auto;
 	padding: 0 1rem;
 	max-width: 950px;
+
+	@media (min-width: $tablet-width) {
+	padding: 0 2rem;
+	}
+  
 }
 
 .inner-line-light{
@@ -48,7 +62,7 @@
 .project-info{
 	background-color: $rosa-palido;
 	margin-top: -1rem;
-	padding: 1rem;
+	padding: 2rem 1rem 1.5rem;
 }
 
 .script {

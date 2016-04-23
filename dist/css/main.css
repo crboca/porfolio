@@ -178,6 +178,9 @@ body {
   width: 100%;
   margin: 0; }
 
+.clearfix {
+  clear: both; }
+
 .home {
   background: url(../img/img-home.jpg);
   height: 580px;
@@ -188,12 +191,18 @@ body {
   text-align: center; }
   @media (min-width: 768px) {
     .home {
-      height: 1100px; } }
+      height: 65rem; } }
 
 .about {
   background-color: #575453;
   color: #fff;
   padding: 2rem 0; }
+
+@media (min-width: 768px) {
+  .content-about {
+    float: left;
+    width: 45%;
+    margin: 0 2rem 0 0; } }
 
 .work {
   background-color: #dfdada;
@@ -210,6 +219,9 @@ body {
   margin: auto;
   padding: 0 1rem;
   max-width: 950px; }
+  @media (min-width: 768px) {
+    .inner-line-light, .inner-line-dark {
+      padding: 0 2rem; } }
 
 .inner-line-light {
   border: 1px solid #fff; }
@@ -220,7 +232,7 @@ body {
 .project-info {
   background-color: #f8f4f4;
   margin-top: -1rem;
-  padding: 1rem; }
+  padding: 2rem 1rem 1.5rem; }
 
 .script {
   display: none;
@@ -276,9 +288,6 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 200; }
-
-.p-about {
-  max-width: 260px; }
 
 .claim {
   border-top: 1px solid #fff;
@@ -371,10 +380,10 @@ a {
   text-decoration: none; }
 
 #menu-container {
+  position: absolute;
   background-color: rgba(57, 54, 53, 0.8);
   width: 190px;
   height: 580px;
-  position: absolute;
   top: 0;
   right: 0;
   display: none; }
@@ -389,6 +398,9 @@ li {
 .btn-menu {
   display: block;
   margin: 2rem auto; }
+  @media (min-width: 768px) {
+    .btn-menu {
+      margin: 3rem auto; } }
 
 .ul-menu {
   padding: 0;
@@ -406,7 +418,6 @@ li {
   right: -3.7rem; }
 
 #mobile-button {
-  position: absolute;
   cursor: pointer;
   top: 1.3rem;
   right: 1.5rem; }
@@ -415,12 +426,14 @@ li {
       right: 3rem; } }
 
 .rrss-icons {
-  height: 30px;
+  height: 2rem;
   display: block;
   margin: 0 auto 2rem auto; }
   @media (min-width: 768px) {
     .rrss-icons {
-      margin: 3rem auto; } }
+      right: 3rem;
+      height: 2.3rem;
+      margin: 4rem auto; } }
 
 .logo {
   width: 171px;
@@ -430,30 +443,35 @@ li {
   @media (min-width: 768px) {
     .logo {
       width: 257px;
-      margin-top: 161px; } }
+      margin-top: 200px; } }
 
 .cristina {
   background-image: url(../img/crboca.jpg);
   width: 100%;
   height: 17rem;
-  margin-bottom: 1rem;
   padding: 0;
-  position: relative;
+  margin: 2rem auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  max-width: 260px; }
+  background-position: top;
+  max-width: 256px; }
+  @media (min-width: 768px) {
+    .cristina {
+      max-width: 45%;
+      margin: 8rem auto 2rem 1rem;
+      float: left;
+      height: 22rem; } }
 
 .div-thumbs {
   width: 100%;
-  height: 9.5rem;
+  min-height: 9.5rem;
   margin: 1rem auto;
-  padding: 0;
-  position: relative; }
+  padding: 0; }
 
 .thumb1, .thumb2, .thumb3, .thumb4 {
-  background-size: cover;
-  background-position: center; }
+  background-size: 110%;
+  background-position: top;
+  background-repeat: no-repeat; }
 
 .thumb1 {
   background-image: url(../img/thumb-snoz.png); }
@@ -552,7 +570,7 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0;
+  padding: 1rem;
   margin: -0.5rem 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
