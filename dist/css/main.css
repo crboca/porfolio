@@ -183,8 +183,8 @@ body {
 
 .home {
   background: url(../img/img-home.jpg);
-  height: 580px;
-  background-size: auto 100%;
+  height: 36rem;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   color: #fff;
@@ -201,8 +201,7 @@ body {
 @media (min-width: 768px) {
   .content-about {
     float: left;
-    width: 45%;
-    margin: 0 2rem 0 0; } }
+    width: 50%; } }
 
 .work {
   background-color: #dfdada;
@@ -239,6 +238,13 @@ body {
   font-family: sans-serif;
   height: auto;
   width: auto; }
+
+.work-text {
+  max-width: 443px; }
+
+@media (min-width: 768px) {
+  .about-text {
+    padding-right: 2rem; } }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -369,7 +375,7 @@ input, textarea {
   font-weight: 200;
   color: #888281;
   height: 4rem;
-  max-width: 400px; }
+  max-width: 443px; }
 
 input {
   line-height: 1.75rem; }
@@ -463,16 +469,20 @@ li {
   max-width: 256px; }
   @media (min-width: 768px) {
     .cristina {
-      max-width: 45%;
-      margin: 8rem auto 2rem 1rem;
+      max-width: 50%;
+      margin-top: 8rem;
       float: left;
-      height: 22rem; } }
+      height: 30rem; } }
 
 .div-thumbs {
   width: 100%;
   min-height: 9.5rem;
   margin: 1rem auto;
   padding: 0; }
+  @media (min-width: 768px) {
+    .div-thumbs {
+      max-width: 45%;
+      float: left; } }
 
 .thumb1, .thumb2, .thumb3, .thumb4 {
   background-size: 110%;
