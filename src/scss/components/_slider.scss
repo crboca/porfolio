@@ -246,13 +246,16 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 .slides-4 li:nth-child(2) {
+  
   background: url(../img/faded-2.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 .slides-4 li:nth-child(3) {
   background: url(../img/faded-3.png) no-repeat center center;
@@ -260,6 +263,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 .slides-4 li:nth-child(4) {
   background: url(../img/faded-4.png) no-repeat center center;
@@ -267,6 +271,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 .slides-4 li:nth-child(5) {
   background: url(../img/faded-5.png) no-repeat center center;
@@ -274,6 +279,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 .slides-4 li:nth-child(6) {
   background: url(../img/faded-6.png) no-repeat center center;
@@ -283,11 +289,13 @@
   background-size: cover;
 }
 .slides-4 li:nth-child(7) {
+
   background: url(../img/faded-7.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 .slides-4 li:nth-child(8) {
   background: url(../img/faded-8.png) no-repeat center center;
@@ -302,6 +310,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: bottom;
 }
 
 
