@@ -46,14 +46,24 @@ input {
 	font-size: 16px;
 	font-weight: 400;
 	padding: 2px;
+	border: 1px solid $marron;
+
+	&:hover {
+		background-color: $rosa-palo;
+		}
 }
 
 .btn-line-light-send {
 	background-color: transparent;
-	border: 1px solid $blanco;
+	border: 2px solid $blanco;
 	margin: 2rem 0 2rem;	
 	display: inline-block;
 	
 }
+
+	
+
+		
+	
 
 

@@ -16,6 +16,12 @@
 	background-color: $marron;
 	color: $blanco;
 	padding: 2rem 0;
+
+	&-text{
+		@media (min-width: $tablet-width) {
+		padding-right: 2rem;
+		}
+	}
 }
 
 .content-about {
@@ -31,6 +37,10 @@
 	background-color: $rosa-palo;
 	color: $marron;	
 	padding: 2rem 0;
+
+	&-text{
+	max-width: 443px;
+	}
 }
 
 .contact{
@@ -72,14 +82,8 @@
 	width: auto;
 }
 
-.work-text{
-	max-width: 443px;
-}
 
-.about-text{
-	@media (min-width: $tablet-width) {
-		padding-right: 2rem;
-	}
-}
+
+
 
 

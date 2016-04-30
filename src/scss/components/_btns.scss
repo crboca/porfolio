@@ -1,4 +1,6 @@
-.btn-dark{
+.btn {
+
+	&-dark{
 	background-color: $marron;
 	color: $blanco;
 	position: relative;
@@ -7,53 +9,72 @@
 	width: 137px;
 	margin: 2rem auto;
 
+	&:hover{
+	background-color: $marron-hover;
+	}
+
 	@media (min-width: $tablet-width) {
 	margin: 0 auto;
 	}
-}
 
-.btn-light {
+	}
+
+	&-light {
 	background-color: $blanco;
 	color: $marron;
 	width: 134px;
 	margin: 2rem 0;
-}
 
-.btn-dark, .btn-light {
+	&:hover{
+	background-color: $rosa-palo;
+	}
+
+	}
+
+	&-dark, &-light {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	padding: 2px;
 	border: none;
 	display: block;
-}
+	}
 
-.btn-line-dark {
+
+	&-line-dark {
 	border: 1px solid $blanco;
-}
 
-.btn-line-light, .btn-send {
+		&:hover {
+		border: 1px solid $rosa-palo;
+		}
+	}
+
+	&-line-light {
 	border: 1px solid $marron;
-}
 
-.btn-line-dark, .btn-line-light{
+		&:hover {
+		border: 1px solid $marron-hover;
+		}
+	}
+
+	&-line-dark, &-line-light{
 	padding: 7px 4px;
+	}
 }
 
-.btn-dark:hover{
-	background-color: $marron-hover;
-}
 
-.btn-light:hover{
-	background-color: $rosa-palo;
-}
 
-.btn-line-dark:hover {
-	border: 1px solid $rosa-palo;
-}
 
-.btn-line-light:hover {
-	border: 1px solid $marron-hover;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
