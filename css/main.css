@@ -197,6 +197,9 @@ body {
   background-color: #575453;
   color: #fff;
   padding: 2rem 0; }
+  @media (min-width: 768px) {
+    .about-text {
+      padding-right: 2rem; } }
 
 @media (min-width: 768px) {
   .content-about {
@@ -207,6 +210,8 @@ body {
   background-color: #dfdada;
   color: #575453;
   padding: 2rem 0; }
+  .work-text {
+    max-width: 443px; }
 
 .contact {
   background-color: #888281;
@@ -238,13 +243,6 @@ body {
   font-family: sans-serif;
   height: auto;
   width: auto; }
-
-.work-text {
-  max-width: 443px; }
-
-@media (min-width: 768px) {
-  .about-text {
-    padding-right: 2rem; } }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -314,6 +312,8 @@ p {
   height: 40px;
   width: 137px;
   margin: 2rem auto; }
+  .btn-dark:hover {
+    background-color: #888281; }
   @media (min-width: 768px) {
     .btn-dark {
       margin: 0 auto; } }
@@ -323,6 +323,8 @@ p {
   color: #575453;
   width: 134px;
   margin: 2rem 0; }
+  .btn-light:hover {
+    background-color: #dfdada; }
 
 .btn-dark, .btn-light {
   font-family: 'Source Sans Pro', sans-serif;
@@ -334,24 +336,16 @@ p {
 
 .btn-line-dark {
   border: 1px solid #fff; }
+  .btn-line-dark:hover {
+    border: 1px solid #dfdada; }
 
-.btn-line-light, .btn-send {
+.btn-line-light {
   border: 1px solid #575453; }
+  .btn-line-light:hover {
+    border: 1px solid #888281; }
 
 .btn-line-dark, .btn-line-light {
   padding: 7px 4px; }
-
-.btn-dark:hover {
-  background-color: #888281; }
-
-.btn-light:hover {
-  background-color: #dfdada; }
-
-.btn-line-dark:hover {
-  border: 1px solid #dfdada; }
-
-.btn-line-light:hover {
-  border: 1px solid #888281; }
 
 .footer {
   background-color: #575453;
@@ -400,11 +394,14 @@ input {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  padding: 2px; }
+  padding: 2px;
+  border: 1px solid #575453; }
+  .btn-send:hover {
+    background-color: #dfdada; }
 
 .btn-line-light-send {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   margin: 2rem 0 2rem;
   display: inline-block; }
 
