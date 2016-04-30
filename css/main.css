@@ -387,6 +387,17 @@ input {
 .form-ul {
   padding: 0; }
 
+.btn-line-light-send {
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin: 2rem 0 2rem;
+  display: inline-block;
+  cursor: pointer; }
+  .btn-line-light-send:hover {
+    border: 2px solid #dfdada; }
+    .btn-line-light-send:hover .btn-send {
+      background-color: #dfdada; }
+
 .btn-send {
   background-color: #fff;
   color: #575453;
@@ -395,15 +406,8 @@ input {
   font-size: 16px;
   font-weight: 400;
   padding: 2px;
-  border: 1px solid #575453; }
-  .btn-send:hover {
-    background-color: #dfdada; }
-
-.btn-line-light-send {
-  background-color: transparent;
-  border: 2px solid #fff;
-  margin: 2rem 0 2rem;
-  display: inline-block; }
+  border: 1px solid #575453;
+  cursor: pointer; }
 
 a {
   text-decoration: none; }
