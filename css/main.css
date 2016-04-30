@@ -706,23 +706,28 @@ li {
 
 .slides-4 li:nth-child(1) {
   background: url(../img/faded-1.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
 
 .slides-4 li:nth-child(2) {
   background: url(../img/faded-2.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
 
 .slides-4 li:nth-child(3) {
   background: url(../img/faded-3.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
 
 .slides-4 li:nth-child(4) {
   background: url(../img/faded-4.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
 
 .slides-4 li:nth-child(5) {
   background: url(../img/faded-5.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
 
 .slides-4 li:nth-child(6) {
   background: url(../img/faded-6.png) no-repeat center center;
@@ -730,7 +735,8 @@ li {
 
 .slides-4 li:nth-child(7) {
   background: url(../img/faded-7.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
 
 .slides-4 li:nth-child(8) {
   background: url(../img/faded-8.png) no-repeat center center;
@@ -738,4 +744,5 @@ li {
 
 .slides-4 li:nth-child(9) {
   background: url(../img/faded-9.png) no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom; }
