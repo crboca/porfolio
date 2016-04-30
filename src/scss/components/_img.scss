@@ -34,12 +34,14 @@
 .div-thumbs {
 	width: 100%;
 	min-height: 9.5rem;
+
 	margin: 1rem auto;
 	padding: 0;
 
 	@media (min-width: $tablet-width) {
-	max-width: 45%;
+	max-width: 48%;
 	float: left;
+	margin: 2rem auto;
 	}
 }
 
@@ -57,15 +59,32 @@
 
 .thumb2 {
 	background-image: url(../img/thumb-antonym.png);
+	
+	@media (min-width: $tablet-width) {
+	max-width: 45%;
+	float: right;
+	}
 
 }
 
 .thumb3 {
 	background-image: url(../img/thumb-leopard.png);
+
+	@media (min-width: $tablet-width) {
+	margin: 0 auto 2rem;
+	}
+	
 }
 
 .thumb4 {
 	background-image: url(../img/thumb-faded.png);
+	
+
+	@media (min-width: $tablet-width) {
+	margin: 0 auto 2rem;
+	max-width: 45%;
+	float: right;
+	}
 }
 
 .inner {

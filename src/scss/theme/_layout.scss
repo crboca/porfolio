@@ -6,12 +6,10 @@
 	background-position: right;
 	color: $blanco;
 	text-align: center;
-
-
-@media (min-width: $tablet-width) {
-	height: 65rem;
+	
+	@media (min-width: $tablet-width) {
+		height: 65rem;
 	}
-
 }
 
 .about{
@@ -21,10 +19,10 @@
 }
 
 .content-about {
-@media (min-width: $tablet-width) {
-	float: left;
-	width: 50%;
-	
+	@media (min-width: $tablet-width) {
+		float: left;
+		width: 50%;
+
 	}
 
 }
@@ -48,9 +46,9 @@
 	max-width: 950px;
 
 	@media (min-width: $tablet-width) {
-	padding: 0 2rem;
+		padding: 0 2rem;
 	}
-  
+
 }
 
 .inner-line-light{
@@ -74,17 +72,18 @@
 	width: auto;
 }
 
-
-
-
 .work-text{
-max-width: 443px;
+	max-width: 443px;
 }
 
 .about-text{
 	@media (min-width: $tablet-width) {
-	padding-right: 2rem;
+		padding-right: 2rem;
 	}
+}
 
+.contact-div {
+	margin: 0 auto;
+	max-width: 443px;
 }
 

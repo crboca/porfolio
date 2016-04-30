@@ -13,6 +13,7 @@ p {
 	width: 135px;
 
 @media (min-width: $tablet-width) {
+	border-top: 2px solid $blanco;
 	font-size: 40px;
 	font-weight: 400;
 	}

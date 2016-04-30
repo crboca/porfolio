@@ -5,7 +5,7 @@ label {
 	margin-top: 1rem;
 }
 
-label, input:not(.btn), textarea {
+label, input:not(.btn-send), textarea {
 	width: 100%;
 	display: block;
 }
@@ -16,7 +16,8 @@ input, textarea {
 	font-weight: 200;
 	color: $gris;
 	height: 4rem;
-	max-width: 443px;
+	padding: 1px;
+	
 }
 
 input {
@@ -34,6 +35,24 @@ input {
 
 .form-ul {
 	padding: 0;
+}
+
+.btn-send {
+	background-color: $blanco;
+	color: $marron;
+	width: 134px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 2px;
+}
+
+.btn-line-light-send {
+	background-color: transparent;
+	border: 1px solid $blanco;
+	margin: 2rem 0 2rem;	
+	display: inline-block;
+	
 }
 
 

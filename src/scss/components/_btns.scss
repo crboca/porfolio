@@ -6,16 +6,20 @@
 	height: 40px;
 	width: 137px;
 	margin: 2rem auto;
+
+	@media (min-width: $tablet-width) {
+	margin: 0 auto;
+	}
 }
 
-.btn-light, .btn-send{
+.btn-light {
 	background-color: $blanco;
 	color: $marron;
 	width: 134px;
 	margin: 2rem 0;
 }
 
-.btn-dark, .btn-light, .btn-send{
+.btn-dark, .btn-light {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -51,3 +55,5 @@
 .btn-line-light:hover {
 	border: 1px solid $marron-hover;
 }
+
+
