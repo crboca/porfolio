@@ -246,10 +246,6 @@ body {
   .about-text {
     padding-right: 2rem; } }
 
-.contact-div {
-  margin: 0 auto;
-  max-width: 443px; }
-
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 48px;
@@ -383,7 +379,8 @@ input, textarea {
   font-weight: 200;
   color: #888281;
   height: 4rem;
-  padding: 1px; }
+  padding: 1px;
+  max-width: 443px; }
 
 input {
   line-height: 1.75rem; }
