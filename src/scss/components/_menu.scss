@@ -1,64 +1,61 @@
-a{
+a {
 	text-decoration: none;
 }
-
 
 #menu-container {
 	position: absolute;
 	background-color: rgba(57, 54, 53, 0.8);
 	width: 190px;;
-	height: 580px;
+	height: 36rem;
 	top: 0;
 	right: 0;
 	display: none;
 
-@media (min-width: $tablet-width) {
-	height: 1040px;
-	width: 235px;
+	@media (min-width: $tablet-width) {
+		height: 1040px;
+		width: 235px;
 	}
-
 }
 
-li{
+li {
 	list-style: none;
 }
 
-.btn-menu{
+.btn-menu {
 	display: block;
 	margin: 2rem auto;
 
-@media (min-width: $tablet-width) {
-	margin: 3rem auto;
-}
+	@media (min-width: $tablet-width) {
+		margin: 3rem auto;
+	}
 }
 
-.ul-menu{
+.ul-menu {
 	padding: 0;
 	margin: 5rem auto 3.5rem;
 }
 
-#mobil-close, #mobile-button{
+#mobil-close, #mobile-button {
 	width: 31px;
 	height: auto;
 	position: absolute;
 }
 
 #mobile-close {
-  position: relative;
-  cursor: pointer;
-  top: 1rem;
-  right: -3.7rem;
+	position: relative;
+	cursor: pointer;
+	top: 1rem;
+	right: -3.7rem;
 }
 
 #mobile-button {
-  cursor: pointer;
-  top: 1.3rem;
-  right: 1.5rem;
+	cursor: pointer;
+	top: 1.3rem;
+	right: 1.5rem;
 
-@media (min-width: $tablet-width) {
-	right: 3rem;
+	@media (min-width: $tablet-width) {
+		right: 3rem;
 	}
-
 }
 
 .rrss-icons {
@@ -66,10 +63,9 @@ li{
 	display: block;
 	margin: 0 auto 2rem auto;
 
-@media (min-width: $tablet-width) {
-	right: 3rem;
-	height: 2.3rem;
-	margin: 4rem auto;
+	@media (min-width: $tablet-width) {
+		right: 3rem;
+		height: 2.3rem;
+		margin: 4rem auto;
 	}
-
 }

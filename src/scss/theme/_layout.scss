@@ -12,14 +12,14 @@
 	}
 }
 
-.about{
+.about {
 	background-color: $marron;
 	color: $blanco;
 	padding: 2rem 0;
 
-	&-text{
+	&-text {
 		@media (min-width: $tablet-width) {
-		padding-right: 2rem;
+			padding-right: 2rem;
 		}
 	}
 }
@@ -28,28 +28,26 @@
 	@media (min-width: $tablet-width) {
 		float: left;
 		width: 50%;
-
 	}
-
 }
 
-.work{
+.work {
 	background-color: $rosa-palo;
 	color: $marron;	
 	padding: 2rem 0;
 
-	&-text{
-	max-width: 443px;
+	&-text {
+		max-width: 443px;
 	}
 }
 
-.contact{
+.contact {
 	background-color: $beige;
 	color: $blanco;	
 	padding: 2rem 0;
 }
 
-.inner-line-light, .inner-line-dark{
+.inner-line-light, .inner-line-dark {
 	width: 80%;
 	margin: auto;
 	padding: 0 1rem;
@@ -58,18 +56,17 @@
 	@media (min-width: $tablet-width) {
 		padding: 0 2rem;
 	}
-
 }
 
-.inner-line-light{
+.inner-line-light {
 	border: 1px solid $blanco;
 }
 
-.inner-line-dark{
+.inner-line-dark {
 	border: 1px solid $marron;
 }
 
-.project-info{
+.project-info {
 	background-color: $rosa-palido;
 	margin-top: -1rem;
 	padding: 2rem 1rem 1.5rem;

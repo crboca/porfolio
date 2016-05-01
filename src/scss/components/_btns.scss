@@ -1,64 +1,61 @@
 .btn {
+	
+	&-dark {
+		background-color: $marron;
+		color: $blanco;
+		position: relative;
+		top: 6rem;
+		height: 40px;
+		width: 137px;
+		margin: 2rem auto;
 
-	&-dark{
-	background-color: $marron;
-	color: $blanco;
-	position: relative;
-	top: 6rem;
-	height: 40px;
-	width: 137px;
-	margin: 2rem auto;
+		&:hover {
+			background-color: $marron-hover;
+		}
 
-	&:hover{
-	background-color: $marron-hover;
-	}
-
-	@media (min-width: $tablet-width) {
-	margin: 0 auto;
-	}
-
+		@media (min-width: $tablet-width) {
+			margin: 0 auto;
+		}
 	}
 
 	&-light {
-	background-color: $blanco;
-	color: $marron;
-	width: 134px;
-	margin: 2rem 0;
+		background-color: $blanco;
+		color: $marron;
+		width: 134px;
+		margin: 2rem 0;
 
-	&:hover{
-	background-color: $rosa-palo;
-	}
-
+		&:hover {
+			background-color: $rosa-palo;
+		}
 	}
 
 	&-dark, &-light {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	padding: 2px;
-	border: none;
-	display: block;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		padding: 2px;
+		border: none;
+		display: block;
 	}
 
-
 	&-line-dark {
-	border: 1px solid $blanco;
+		border: 1px solid $blanco;
 
 		&:hover {
-		border: 1px solid $rosa-palo;
+			border: 1px solid $rosa-palo;
 		}
 	}
 
 	&-line-light {
-	border: 1px solid $marron;
+		border: 1px solid $marron;
 
 		&:hover {
-		border: 1px solid $marron-hover;
+			border: 1px solid $marron-hover;
 		}
 	}
 
-	&-line-dark, &-line-light{
-	padding: 7px 4px;
+	&-line-dark, &-line-light {
+		padding: 7px 4px;
 	}
 }
 

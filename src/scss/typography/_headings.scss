@@ -1,39 +1,38 @@
-h1{
+h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 48px;
 	font-weight: 700;
 }
 
-h2{
+h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 40px;
 	font-weight: 400;
 }
 
-h3{
+h3 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 33px;
 	font-weight: 300;
 }
 
-h4{
+h4 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 26px;
 	font-weight: 400;
 }
 
-h5{
+h5 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 21px;
 	font-weight: 300;	
 
-@media (min-width: $tablet-width) {
-	font-size: 33px;
+	@media (min-width: $tablet-width) {
+		font-size: 33px;
 	}
-
 }
 
-h6{
+h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -44,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 1.5rem;
 }
 
-.title-info{
+.title-info {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 21px;
 	font-weight: 300;	
